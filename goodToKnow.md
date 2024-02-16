@@ -21,7 +21,6 @@
   - [JavaScript Date() Objects](#javascript-date-objects)
 
 ## var, let, const
-
 |         | Scope | Redeclare | Reassign | Hoisted | Bind this |
 | ------- | ----- | --------- | -------- | ------- | --------- |
 | `var`   | No    | Yes       | Yes      | Yes     | Yes       |
@@ -61,8 +60,9 @@ Real numbers (floating-point): float (32-bit), double (64-bit).
 
 
 ```md
-`Javascript numbers are always one type:
-double (64-bit floating point).`
+Javascript numbers are always one type:
+double (64-bit floating point).
+```
 
 Unlike many other programming languages, JavaScript does not define different types of numbers, 
 like integers, short, long, floating-point etc.
@@ -72,7 +72,6 @@ following the international IEEE 754 standard.
 
 This format stores numbers in 64 bits, where the number (the fraction) is stored in bits 0 to 51, 
 the exponent in bits 52 to 62, and the sign in bit 63:
-```
 
 | Value (aka Fraction/Mantissa) | Exponent         | Sign       |
 | ----------------------------- | ---------------- | ---------- |
