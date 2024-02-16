@@ -73,8 +73,8 @@ Integers (numbers without a period or exponent notation) are accurate up to 15 d
 
 Example: 
 ```js
-let x = 999999999999999;   // x will be 999999999999999
-let y = 9999999999999999;  // y will be 10000000000000000
+const x = 999999999999999;   // x will be 999999999999999
+const y = 9999999999999999;  // y will be 10000000000000000
 ```
 The maximum number of decimals is 17.
 
