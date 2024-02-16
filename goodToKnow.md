@@ -24,7 +24,7 @@
 
 JavaScript has 8 Datatypes
 
-```js
+```md
 1. string
 2. number
 3. bigint
@@ -37,7 +37,7 @@ JavaScript has 8 Datatypes
 
 The Object Datatype
 
-```js
+```md
 1. An object
 2. An array
 3. a date
