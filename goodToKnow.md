@@ -1,6 +1,6 @@
-# Good To Know
+# JS Good To Knows
 
-- [Good To Know](#good-to-know)
+- [JS Good To Knows](#js-good-to-knows)
   - [Data Types](#data-types)
   - [Number Types](#number-types)
     - [Integer Precision](#integer-precision)
