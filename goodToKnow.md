@@ -31,24 +31,20 @@
 
 JavaScript has 8 Datatypes
 
-```md
-1. string
-2. number
-3. bigint
-4. boolean
-5. undefined
-6. null
-7. symbol
-8. object
-```
+1. `string`
+2. `number`
+3. `bigint`
+4. `boolean`
+5. `undefined`
+6. `null`
+7. `symbol`
+8. `object`
 
 The Object Datatype
 
-```md
-1. An object
-2. An array
-3. a date
-```
+1. `An object`
+2. `An array`
+3. `a date`
 
 ## Number Types
 
@@ -202,16 +198,14 @@ function getRndInteger(min, max) {
 
 ## Types of JavaScript Operators
 
-```md
-1. Arithmetic Operators
-2. Assignment Operators
-3. Comparison Operators
-4. String Operators
-5. Logical Operators
-6. Bitwise Operators
-7. Ternary Operators
-8. Type Operators
-```
+1. `Arithmetic Operators`
+2. `Assignment Operators`
+3. `Comparison Operators`
+4. `String Operators`
+5. `Logical Operators`
+6. `Bitwise Operators`
+7. `Ternary Operators`
+8. `Type Operators`
 
 ### Assingment Operator
 ---
