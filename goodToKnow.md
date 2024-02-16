@@ -1,6 +1,7 @@
 # JS Good To Knows
 
 - [JS Good To Knows](#js-good-to-knows)
+  - [var, let, const](#var-let-const)
   - [Data Types](#data-types)
   - [Number Types](#number-types)
     - [Integer Precision](#integer-precision)
@@ -9,7 +10,6 @@
   - [JavaScript Random](#javascript-random)
     - [JavaScript Random Integers](#javascript-random-integers)
     - [A Proper Random Function](#a-proper-random-function)
-  - [var, let, const](#var-let-const)
   - [Types of JavaScript Operators](#types-of-javascript-operators)
     - [Assingment Operator](#assingment-operator)
       - [Arithmetic Assignment Operators](#arithmetic-assignment-operators)
@@ -19,6 +19,14 @@
     - [Bitwise Operators](#bitwise-operators)
   - [What is `this`](#what-is-this)
   - [JavaScript Date() Objects](#javascript-date-objects)
+
+## var, let, const
+
+|         | Scope | Redeclare | Reassign | Hoisted | Bind this |
+| ------- | ----- | --------- | -------- | ------- | --------- |
+| `var`   | No    | Yes       | Yes      | Yes     | Yes       |
+| `let`   | Yes   | No        | Yes      | No      | No        |
+| `const` | Yes   | No        | No       | No      | No        |
 
 ## Data Types
 
@@ -190,14 +198,6 @@ function getRndInteger(min, max) {
 }
 ```
 
-## var, let, const
-
-|         | Scope | Redeclare | Reassign | Hoisted | Bind this |
-| ------- | ----- | --------- | -------- | ------- | --------- |
-| `var`   | No    | Yes       | Yes      | Yes     | Yes       |
-| `let`   | Yes   | No        | Yes      | No      | No        |
-| `const` | Yes   | No        | No       | No      | No        |
-
 ## Types of JavaScript Operators
 
 ```md
@@ -269,6 +269,11 @@ ES2022
 
 In JavaScript, the `this` keyword refers to an object. Which object depends on how `this` is being invoked (used or called).
 
+The `this` Keyword
+```md
+In JavaScript, `this` refers to the object that is executing the current function. It allows access to the object's properties and methods within the function. The value of `this` is determined by how a function is called.
+```
+
 The `this` keyword refers to different objects depending on how it is used:
 
 ```md
@@ -280,12 +285,7 @@ The `this` keyword refers to different objects depending on how it is used:
 - Methods like `call()`, `apply()`, and `bind()` can refer `this` to any object.
 ```
 
-The `this` Keyword
-```md
-- In a function definition, `this` refers to the "owner" of the function.
-- In the example above, `this` is the person object that "owns" the fullName function.
-- In other words, this.firstName means the firstName property of `this` object.
-```
+
 
 ## JavaScript Date() Objects
 
