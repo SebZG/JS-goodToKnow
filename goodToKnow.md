@@ -283,7 +283,13 @@ The `this` keyword refers to different objects depending on how it is used:
 - Methods like `call()`, `apply()`, and `bind()` can refer `this` to any object.
 ```
 
+Note:
+```md
+In regular functions the `this` keyword represented the object that called the function, which could be the window, the document, a button or whatever.
 
+With arrow functions, the `this` keyword always represents the object that defined the arrow function.
+
+```
 
 ## JavaScript Date() Objects
 
