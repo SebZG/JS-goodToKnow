@@ -271,7 +271,9 @@ In JavaScript, the `this` keyword refers to an object. Which object depends on h
 
 The `this` Keyword
 ```md
-In JavaScript, `this` refers to the object that is executing the current function. It allows access to the object's properties and methods within the function. The value of `this` is determined by how a function is called.
+In JavaScript, `this` refers to the object that is executing the current function. 
+It allows access to the object's properties and methods within the function.
+The value of `this` is determined by how a function is called.
 ```
 
 The `this` keyword refers to different objects depending on how it is used:
