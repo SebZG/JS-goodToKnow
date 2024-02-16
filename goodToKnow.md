@@ -124,7 +124,7 @@ JavaScript uses the + operator to concatenate the strings.
 
 Note:
 ```md
-Math.random() always returns a number lower than 1.
+`Math.random()` always returns a number lower than 1.
 ```
 
 ### JavaScript Random Integers
